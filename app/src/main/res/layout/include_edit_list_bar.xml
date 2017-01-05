@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#f56564"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:id="@+id/iv_choose_done"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_done_white" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="16dp"
+        android:background="#FFF" />
+
+    <TextView
+        android:id="@+id/tv_choose_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="已选择0个"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/iv_delete_choose"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_delete_forever_white" />
+
+</LinearLayout>
