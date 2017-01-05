@@ -8,3 +8,8 @@ App样式参考了书上的样子但也有一些修改.<br />
 4.View绑定: butterknife<br />
 5.图片加载: picasso<br />
 6.本地数据存储: realm<br />
+###App图片如下:
+
+![](https://github.com/GzwJaaaelu/EasyWeather/blob/master/Screenshot_2017-01-05-15-47-58.jpg "App天气界面")
+![](https://github.com/GzwJaaaelu/EasyWeather/blob/master/Screenshot_20170105-154747.png "App城市选择")
+![](https://github.com/GzwJaaaelu/EasyWeather/blob/master/Screenshot_20170105-154817.png "App已选城市编辑或添加")
